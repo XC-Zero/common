@@ -29,6 +29,7 @@ type Config struct {
 	UserDatapackConfig     cfg.MySQLConfiguration
 	RedisConfig            cfg.RedisConfiguration
 	ESConfig               cfg.ESConfiguration
+	MinioConfig            cfg.MinioConfiguration
 	IpRealAddressAPIConfig IpRealAddressAPI
 }
 type IpRealAddressAPI struct {
