@@ -22,7 +22,7 @@ package config
 *
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 import (
-	cfg "common/config"
+	cfg "github.com/XC-Zero/common/config"
 )
 
 type Config struct {

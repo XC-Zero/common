@@ -1,8 +1,8 @@
 package document_process
 
 import (
-	"common/errs"
 	"errors"
+	"github.com/XC-Zero/common/errs"
 	"github.com/tealeg/xlsx"
 )
 

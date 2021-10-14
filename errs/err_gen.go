@@ -3,7 +3,7 @@ package errs
 import (
 	"encoding/json"
 
-	ec "common/error_code"
+	ec "github.com/XC-Zero/common/error_code"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 	"github.com/twitchtv/twirp"

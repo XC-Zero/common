@@ -1,8 +1,8 @@
 package mysql
 
 import (
-	"common/client"
-	"common/internal/config"
+	"github.com/XC-Zero/common/client"
+	"github.com/XC-Zero/common/internal/config"
 	"gorm.io/gorm"
 	"log"
 )

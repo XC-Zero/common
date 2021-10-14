@@ -1,7 +1,7 @@
 package config
 
 import (
-	"common/errs"
+	"github.com/XC-Zero/common/errs"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )
@@ -9,6 +9,12 @@ import (
 // ServiceConfiguration  configuration for service
 type ServiceConfiguration struct {
 	Port string
+}
+type MinioConfiguration struct {
+	AccessKey string
+	SecretKey string
+	EndPoint  string
+	Bucket    string
 }
 
 // MySQLConfiguration  configuration for MySQL database connection

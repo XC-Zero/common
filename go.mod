@@ -1,4 +1,4 @@
-module common
+module github.com/XC-Zero/common
 
 go 1.17
 

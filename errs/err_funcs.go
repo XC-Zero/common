@@ -1,7 +1,7 @@
 package errs
 
 import (
-	ec "common/error_code"
+	ec "github.com/XC-Zero/common/error_code"
 	"github.com/pkg/errors"
 )
 

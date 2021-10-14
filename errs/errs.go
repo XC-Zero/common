@@ -3,7 +3,7 @@ package errs
 import (
 	"fmt"
 
-	ec "common/error_code"
+	ec "github.com/XC-Zero/common/error_code"
 	"github.com/twitchtv/twirp"
 )
 

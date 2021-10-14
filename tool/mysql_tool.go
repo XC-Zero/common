@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"common/connector"
+	"github.com/XC-Zero/common/connector"
 	"gorm.io/gorm"
 )
 

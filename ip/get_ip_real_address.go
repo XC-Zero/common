@@ -1,10 +1,10 @@
 package ip
 
 import (
-	my_http "common/http"
-	"common/internal/config"
 	"encoding/json"
 	"fmt"
+	my_http "github.com/XC-Zero/common/http"
+	"github.com/XC-Zero/common/internal/config"
 )
 
 type IpAddressDataJson struct {
